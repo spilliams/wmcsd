@@ -6063,14 +6063,14 @@ body {
   color: white;
 }
 
-/* line 23, ../sass/_type.scss */
+/* line 3, ../sass/_type.scss */
 .title {
   font-family: "IM Fell DW Pica", serif;
   font-style: italic;
   font-size: 6rem;
 }
 
-/* line 27, ../sass/_type.scss */
+/* line 8, ../sass/_type.scss */
 .subtitle {
   font-family: "Flamenco", cursive;
   font-weight: 400;
