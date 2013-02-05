@@ -7,4 +7,3 @@
   Components: jQuery, Orbit, Reveal
   Software: Coda, Textmate, Git
   
-  background image: Rendezvous Mountain, used with permission http://en.wikipedia.org/wiki/File:Rendezvous_Peak_WY3.jpg
