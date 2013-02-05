@@ -1,11 +1,14 @@
 @import "compass/typography";
 
-.title {
+h1 {
   font-family: 'IM Fell DW Pica', serif;
   font-style: italic;
   font-size: 6rem;
 }
-.subtitle {
+h2 {
   font-family: 'Flamenco', cursive;
   font-weight: 400;
+}
+h3 {
+  font-family: 'IM Fell DW Pica', serif;
 }

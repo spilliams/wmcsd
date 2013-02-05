@@ -10,15 +10,11 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
   width: 100%;
   z-index: -1;
-  background: rgba(255,255,255,0.5);
 }
 
 #header {
   padding-top: 200px;
-  h1, h2 {
-    color: white;
-  }
+  .row { min-height: 500px; }
 }
