@@ -1,0 +1,29 @@
+@import "compass/typography";
+
+@mixin family-flamenco($weight) {
+  font-family: 'Flamenco', cursive;
+  font-weight: $weight;
+}
+@mixin family-fell {
+  font-family: 'IM Fell DW Pica', serif;
+}
+@mixin family-alegreya($weight) {
+  font-family: 'Alegreya SC', serif;
+  font-weight: $weight;
+}
+
+@mixin serif1 {
+  @include family-fell;
+  font-style: italic;
+}
+@mixin sans1 {
+  @include family-flamenco(400);
+}
+
+.title {
+  @include serif1;
+  font-size: 6rem;
+}
+.subtitle {
+  @include sans1;
+}

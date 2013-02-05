@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-size: 100%;
+  background-image: url('../images/bg.jpg');
+  background-attachment: fixed;
+}
+#bgoverlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: rgba(255,255,255,0.5);
+}
+
+#header {
+  padding-top: 200px;
+  h1, h2 {
+    color: white;
+  }
+}
