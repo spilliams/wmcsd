@@ -19,7 +19,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic|Flamenco:400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/app.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
   
   <?php wp_head(); ?>
 </head>
