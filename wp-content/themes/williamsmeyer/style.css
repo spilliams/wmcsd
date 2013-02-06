@@ -2,7 +2,7 @@
 Theme Name: Williams & Meyer
 Author: Spencer Williams
 Author URI: http://spencerenglish.com/
-Description: Custom theme for a bike tour. Based on Wordpress' Twenty Twelve theme.
+Description: Custom theme for a bike tour.
 Version: 1.0
 License: (c) 2013 Spencer Williams and Grace Meyer, All rights reserved.
 Text Domain: williamsmeyer
@@ -76,7 +76,7 @@ html, body {
 }
 body {
   background-size: cover;
-  background-image: url("../images/bg.jpg");
+  background-image: url("./images/bg.jpg");
   background-attachment: fixed;
 }
 #bgoverlay {
@@ -89,7 +89,9 @@ body {
 
 #header {
   padding-top: 220px;
-  .row { min-height: 500px; }
+}
+#header .row {
+  min-height: 500px;
 }
 #header .overlay {
   position: absolute;
@@ -107,7 +109,7 @@ body {
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url("../images/bg.jpg");
+  background-image: url("./images/bg.jpg");
   z-index: 10;
 }
 #header.stuck .overlay {
