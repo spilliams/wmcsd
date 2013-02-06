@@ -1,38 +1,51 @@
+$opacity : 0.9;
+
 $blueRed : 137;
 $blueGreen : 188;
 $blueBlue : 171;
+$blueOpacity: $opacity;
 $blueHex : #89BCAB;
+
 $peachRed : 255;
 $peachGreen : 241;
 $peachBlue : 179;
+$peachOpacity: 0.5;
 $peachHex : #FFF1B3;
+
 $orangeRed : 251;
 $orangeGreen : 139;
 $orangeBlue : 93;
+$orangeOpacity: $opacity;
 $orangeHex : #FB8B5D;
+
 $redRed : 180;
 $redGreen : 102;
 $redBlue : 90;
+$redOpacity: $opacity;
 $redHex : #B4665A;
+
 $greyRed : 58;
 $greyGreen : 68;
 $greyBlue : 77;
+$greyOpacity: $opacity;
 $greyHex : #3A444D;
 
-$opacity : 0.75;
 
 
 .blue {
-  background: rgba($blueRed, $blueGreen, $blueBlue, $opacity);
+  background: rgba($blueRed, $blueGreen, $blueBlue, $blueOpacity);
 }
 .peach {
-  background: rgba($peachRed,$peachGreen,$peachBlue,$opacity);
+  background: rgba($peachRed,$peachGreen,$peachBlue,$peachOpacity);
 }
 .orange {
-  background: rgba($orangeRed, $orangeGreen, $orangeBlue, $opacity);
+  background: rgba($orangeRed, $orangeGreen, $orangeBlue, $orangeOpacity);
 }
 .red {
-  background: rgba($redRed, $redGreen, $redBlue, $opacity);
+  background: rgba($redRed, $redGreen, $redBlue, $redOpacity);
+}
+.grey {
+  background: rgba($greyRed, $greyGreen, $greyBlue, $greyOpacity);
 }
 
 body, h1, h2, h3 {

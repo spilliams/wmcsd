@@ -6051,27 +6051,32 @@ h3 {
   font-weight: normal;
 }
 
-/* line 25, ../sass/_color.scss */
+/* line 35, ../sass/_color.scss */
 .blue {
-  background: rgba(137, 188, 171, 0.75);
-}
-
-/* line 28, ../sass/_color.scss */
-.peach {
-  background: rgba(255, 241, 179, 0.75);
-}
-
-/* line 31, ../sass/_color.scss */
-.orange {
-  background: rgba(251, 139, 93, 0.75);
-}
-
-/* line 34, ../sass/_color.scss */
-.red {
-  background: rgba(180, 102, 90, 0.75);
+  background: rgba(137, 188, 171, 0.9);
 }
 
 /* line 38, ../sass/_color.scss */
+.peach {
+  background: rgba(255, 241, 179, 0.5);
+}
+
+/* line 41, ../sass/_color.scss */
+.orange {
+  background: rgba(251, 139, 93, 0.9);
+}
+
+/* line 44, ../sass/_color.scss */
+.red {
+  background: rgba(180, 102, 90, 0.9);
+}
+
+/* line 47, ../sass/_color.scss */
+.grey {
+  background: rgba(58, 68, 77, 0.9);
+}
+
+/* line 51, ../sass/_color.scss */
 body, h1, h2, h3 {
   color: white !important;
   text-shadow: 1px 1px 1px #3a444d;
