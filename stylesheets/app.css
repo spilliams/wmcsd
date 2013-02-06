@@ -6083,19 +6083,19 @@ body, h1, h2, h3 {
   filter: dropshadow(color=#3a444d, offx=1, offy=1);
 }
 
-/* line 1, ../sass/_misc.scss */
+/* line 3, ../sass/_misc.scss */
 html, body {
   height: 100%;
 }
 
-/* line 4, ../sass/_misc.scss */
+/* line 6, ../sass/_misc.scss */
 body {
   background-size: cover;
   background-image: url("../images/bg.jpg");
   background-attachment: fixed;
 }
 
-/* line 9, ../sass/_misc.scss */
+/* line 11, ../sass/_misc.scss */
 #bgoverlay {
   position: absolute;
   left: 0;
@@ -6104,11 +6104,54 @@ body {
   z-index: -1;
 }
 
-/* line 17, ../sass/_misc.scss */
+/* line 19, ../sass/_misc.scss */
 #header {
   padding-top: 220px;
 }
-/* line 19, ../sass/_misc.scss */
+/* line 21, ../sass/_misc.scss */
 #header .row {
   min-height: 500px;
+}
+
+/* line 23, ../sass/_misc.scss */
+#header .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: none;
+}
+
+/* line 33, ../sass/_misc.scss */
+#header.stuck {
+  padding-top: 0;
+  position: fixed;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../images/bg.jpg");
+  z-index: 10;
+}
+
+/* line 42, ../sass/_misc.scss */
+#header.stuck .overlay {
+  display: block;
+}
+
+/* line 45, ../sass/_misc.scss */
+#header.stuck .row {
+  min-height: auto;
+}
+
+/* line 48, ../sass/_misc.scss */
+#header.stuck h2 {
+  display: none;
+}
+
+/* line 52, ../sass/_misc.scss */
+#content.header-stuck {
+  padding-top: 94px;
+  /* must match header height! which can change with device width btw */
 }
