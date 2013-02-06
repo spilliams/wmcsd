@@ -21,7 +21,6 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/app.css">
   <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic|Flamenco:400' rel='stylesheet' type='text/css'>
   
-  <script src="<?php echo get_template_directory_uri(); ?>/javascripts/modernizr.foundation.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
