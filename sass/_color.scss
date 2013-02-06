@@ -1,0 +1,42 @@
+$blueRed : 137;
+$blueGreen : 188;
+$blueBlue : 171;
+$blueHex : #89BCAB;
+$peachRed : 255;
+$peachGreen : 241;
+$peachBlue : 179;
+$peachHex : #FFF1B3;
+$orangeRed : 251;
+$orangeGreen : 139;
+$orangeBlue : 93;
+$orangeHex : #FB8B5D;
+$redRed : 180;
+$redGreen : 102;
+$redBlue : 90;
+$redHex : #B4665A;
+$greyRed : 58;
+$greyGreen : 68;
+$greyBlue : 77;
+$greyHex : #3A444D;
+
+$opacity : 0.75;
+
+
+.blue {
+  background: rgba($blueRed, $blueGreen, $blueBlue, $opacity);
+}
+.peach {
+  background: rgba($peachRed,$peachGreen,$peachBlue,$opacity);
+}
+.orange {
+  background: rgba($orangeRed, $orangeGreen, $orangeBlue, $opacity);
+}
+.red {
+  background: rgba($redRed, $redGreen, $redBlue, $opacity);
+}
+
+body, h1, h2, h3 {
+  color: white !important;
+  text-shadow: 1px 1px 1px #3a444d;
+  filter: dropshadow(color=#3a444d, offx=1, offy=1);
+}
