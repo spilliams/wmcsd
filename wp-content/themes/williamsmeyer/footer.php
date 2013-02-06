@@ -30,5 +30,7 @@
 
   <!-- Application Javascript, safe to override -->
   <script src="javascripts/foundation/app.js"></script>
+  
+  <?php wp_footer(); ?>
 </body>
 </html>
