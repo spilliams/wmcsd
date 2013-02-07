@@ -5,6 +5,7 @@
  */
 ?>
 
+content-page:
 <div class="grey">
   <div class="row">
     <div class="twelve columns">
