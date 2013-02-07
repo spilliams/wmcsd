@@ -15,9 +15,16 @@ get_header(); ?>
 </div>
 
 <?php if ( have_posts() ) : ?>
+have posts
   <?php while ( have_posts() ) : the_post(); ?>
-    <?php get_template_part( 'content', get_post_format() ); ?>
+post
+<?php if ( function_exist('get_template_part') ) : ?>
+get_template_part exists
+<?php endif; ?>
+    <?php get_template_part( 'content' ); ?>
   <?php endwhile; ?>
+<?php else : ?>
+no posts
 <?php endif; // end have_posts() check ?>
 
 <?php get_footer(); ?>

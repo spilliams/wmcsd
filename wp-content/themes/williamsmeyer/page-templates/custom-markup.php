@@ -11,8 +11,6 @@
 get_header(); ?>
 
 custom-markup-page-template.
-<?php the_title(); ?>
-loop:
 <?php if ( have_posts() ) : ?>
   <?php while ( have_posts() ) : the_post(); ?>
     post
