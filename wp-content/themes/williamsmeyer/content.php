@@ -19,13 +19,24 @@
   </div>
   <div class="row">
     <div class="twelve columns">
-      <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'williamsmeyer' ) ); ?>
-      <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'williamsmeyer' ), 'after' => '</div>' ) ); ?>
+      by <?php the_author() ?> on <?php the_time('j F Y') ?> at <?php the_time('g:i a') ?> <?php edit_post_link(__('Edit', 'williamsmeyer')); ?>
     </div>
   </div>
   <div class="row">
     <div class="twelve columns">
-      <?php edit_post_link( __( 'Edit', 'williamsmeyer' ), '<span class="edit-link">', '</span>' ); ?>
+      <?php the_content(__('(more...)', 'williamsmeyer')); ?>
+      <?php wp_link_pages(); ?>
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <p><?php the_tags('Tags: ', ', ', '. '); ?>In: <?php the_category(', '); ?>
+      <?php comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')); ?></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <hr />
     </div>
   </div>
 </div>
