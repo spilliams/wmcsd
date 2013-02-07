@@ -8,7 +8,7 @@
     <div id="footer" class="grey">
       <div class="row">
         <div class="twelve columns text-center">
-          &copy; 2013 Spencer Williams and Grace Meyer. All rights reserved.
+          <p>&copy; 2013 Spencer Williams and Grace Meyer. All rights reserved.</p>
         </div>
       </div>
     </div>
