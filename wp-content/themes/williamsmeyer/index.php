@@ -6,16 +6,18 @@
 
 get_header(); ?>
 
-  <?php if ( have_posts() ) : ?>
-    
-    <?php while ( have_posts() ) : the_post(); ?>
-      <?php get_template_part( 'content', get_post_format() ); ?>
-    <?php endwhile; ?>
-    
-  <?php else : ?>
+<div class="grey">
+  <div class="row">
+    <div class="twelve columns text-center">
+      <h2>The Great Adventure starts in "late May". Tune in then!</h2>
+    </div>
+  </div>
+</div>
 
-    not found
-
-  <?php endif; // end have_posts() check ?>
+<?php if ( have_posts() ) : ?>
+  <?php while ( have_posts() ) : the_post(); ?>
+    <?php get_template_part( 'content', get_post_format() ); ?>
+  <?php endwhile; ?>
+<?php endif; // end have_posts() check ?>
 
 <?php get_footer(); ?>
