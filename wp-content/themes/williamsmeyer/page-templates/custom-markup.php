@@ -10,14 +10,6 @@
 
 get_header(); ?>
 
-custom-markup-page-template.
-<?php the_title(); ?>
-loop:
-<?php if ( have_posts() ) : ?>
-  <?php while ( have_posts() ) : the_post(); ?>
-    post
-    <?php get_template_part( 'content', 'page' ); ?>
-  <?php endwhile; ?>
-<?php endif; // end have_posts() check ?>
+<?php the_content(); ?>
 
 <?php get_footer(); ?>

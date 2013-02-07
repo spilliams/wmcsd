@@ -10,6 +10,7 @@ get_header(); ?>
   <div class="row">
     <div class="twelve columns text-center">
       <h2>The Great Adventure starts in "late May". Tune in then!</h2>
+      <hr />
     </div>
   </div>
 </div>

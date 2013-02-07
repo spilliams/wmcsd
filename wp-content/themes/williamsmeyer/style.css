@@ -9,9 +9,9 @@ Text Domain: williamsmeyer
 
 */
 
-/*
-TYPE
-*/
+/*=========
+    TYPE
+ =========*/
 
 h1 {
   font-family: 'IM Fell DW Pica', serif;
@@ -34,9 +34,10 @@ h3 {
 
 
 
-/*
-COLOR
-*/
+/*===========
+     COLOR
+ ===========*/
+
 .blue {
   background: rgba(137, 188, 171, 0.9);
 }
@@ -58,6 +59,18 @@ body, h1, h2, h3 {
   text-shadow: 1px 1px 1px #3a444d;
   filter: dropshadow(color=#3a444d, offx=1, offy=1);
 }
+a {
+  color: #FFF1B3;
+}
+a:hover {
+  color: #FFF8D9;
+}
+blockquote, blockquote p {
+  color: #FFF1B3;
+}
+blockquote a, blockquote p a {
+  color: white;
+}
 
 
 
@@ -68,9 +81,10 @@ body, h1, h2, h3 {
 
 
 
-/*
-LAYOUT
-*/
+/*===========
+    LAYOUT
+ ===========*/
+
 html, body {
   height: 100%;
 }
@@ -93,6 +107,30 @@ body {
 #header .row {
   min-height: 500px;
 }
+
+blockquote {
+  padding-top: 0;
+  margin-top: 9px;
+}
+
+div.wp-caption {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==================
+    STICKY HEADER
+ ==================*/
+
 #header .overlay {
   position: absolute;
   left: 0;
