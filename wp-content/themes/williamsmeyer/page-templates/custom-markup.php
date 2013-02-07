@@ -10,6 +10,6 @@
 
 get_header(); ?>
 
-custom-markup-page-template
+<?php the_content(); ?>
 
 <?php get_footer(); ?>
