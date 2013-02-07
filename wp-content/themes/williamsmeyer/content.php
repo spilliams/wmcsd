@@ -19,7 +19,7 @@
   </div>
   <div class="row">
     <div class="twelve columns">
-      by <?php the_author() ?> on <?php the_time('j F Y') ?> at <?php the_time('g:i a') ?> <?php edit_post_link(__('Edit', 'williamsmeyer')); ?>
+      <p class="meta">by <?php the_author() ?> on <?php the_time('j F Y') ?> <?php edit_post_link(__('Edit', 'williamsmeyer')); ?></p>
     </div>
   </div>
   <div class="row">
@@ -30,7 +30,7 @@
   </div>
   <div class="row">
     <div class="twelve columns">
-      <p><?php the_tags('Tags: ', ', ', '. '); ?>In: <?php the_category(', '); ?>
+      <p><?php the_tags('Tagged: ', ', ', '. '); ?>Categorized: <?php the_category(', '); ?>
       <?php comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')); ?></p>
     </div>
   </div>
