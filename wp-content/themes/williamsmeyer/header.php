@@ -44,6 +44,10 @@
       <div class="row">
         <div class="three columns text-center"><h2><a href="/">Posts</a></h2></div>
         <div class="three columns text-center end"><h2><a href="/about">About</a></h2></div>
-        <hr />
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <hr />
+        </div>
       </div>
     </div>
