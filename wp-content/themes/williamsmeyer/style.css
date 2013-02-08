@@ -119,6 +119,9 @@ img {
   border-width: 10px;
   margin-bottom: 21px;
 }
+hr {
+  margin-top: 0;
+}
 
 div.wp-caption {
   max-width: 100%;
