@@ -157,25 +157,23 @@ div.wp-caption {
   display: none;
 }
 
-#header.stuck {
+#sticky-header.stuck {
   padding-top: 0;
-  position: fixed;
-  width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-image: url("./images/bg.jpg");
-  z-index: 10;
-}
-#header.stuck .overlay {
-  display: block;
-}
-#header.stuck .row {
-  min-height: auto;
-}
-#header.stuck h2 {
-  display: none;
 }
 
-#content.header-stuck {
-  padding-top: 94px; /* must match header height! which can change with device width btw */
+#sticky-header.half-stuck h1, #sticky-header.stuck {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#sticky-header.stuck .overlay {
+  display: block;
+}
+#sticky-header.half-stuck + h2 {
+  padding-top: 80px;
 }

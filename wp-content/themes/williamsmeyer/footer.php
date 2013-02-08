@@ -36,8 +36,24 @@
   <script src="<?php echo get_template_directory_uri(); ?>/javascripts/foundation/jquery.foundation.topbar.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/javascripts/foundation/jquery.placeholder.js"></script>
 
+  <script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(window).scroll(function(){
+      if  (jQuery(window).scrollTop() > 626) {
+        jQuery("#sticky-header").removeClass("half-stuck");
+        jQuery("#sticky-header").addClass("stuck");
+      } else if (jQuery(window).scrollTop() > 273) {
+        jQuery("#sticky-header").addClass("half-stuck");
+        jQuery("#sticky-header").removeClass("stuck");
+      } else {
+        jQuery("#sticky-header").removeClass("half-stuck");
+        jQuery("#sticky-header").removeClass("stuck");
+      }
+    });
+  </script>
+
   <!-- Application Javascript, safe to override -->
-  <script src="javascripts/foundation/app.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/javascripts/foundation/app.js"></script>
   
   <?php wp_footer(); ?>
 </body>

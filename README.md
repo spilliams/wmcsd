@@ -24,4 +24,3 @@ Williams &amp; Meyer, and the Corps of Self-Discovery
 - moar templates
 - mobile?
 - load bg image asynchronously or compress it or something (use a smaller res too--something 1080h?)
-- finish sticky header
