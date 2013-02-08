@@ -28,11 +28,13 @@
   
   <a name="top"></a>
   <div id="header" class="peach">
-    <div class="peach overlay"></div>
     <div class="row">
       <div class="twelve columns text-center">
         <h2 class="subtitle">Captains</h2>
-        <h1 class="title"><a href="/">Williams &amp; Meyer</a></h1>
+        <div id="sticky-header">
+          <h1 class="title"><a href="/">Williams &amp; Meyer</a></h1>
+          <div class="peach overlay"></div>
+        </div>
         <h2 class="subtitle">and the Corps of Self-Discovery</h2>
       </div>
     </div>
