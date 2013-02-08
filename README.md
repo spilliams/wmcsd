@@ -19,7 +19,7 @@ Williams &amp; Meyer, and the Corps of Self-Discovery
 ##Theme
 
 - About page (/all pages)
-    - not readable enough
+    - not readable enough (blue and orange only?)
     - pictures should blow up in a lightbox (don't do extra tabs--takes the user outside the experience)
 - moar templates
 - mobile?

@@ -32,7 +32,7 @@
     <div class="row">
       <div class="twelve columns text-center">
         <h2 class="subtitle">Captains</h2>
-        <h1 class="title">Williams &amp; Meyer</h1>
+        <h1 class="title"><a href="/">Williams &amp; Meyer</a></h1>
         <h2 class="subtitle">and the Corps of Self-Discovery</h2>
       </div>
     </div>

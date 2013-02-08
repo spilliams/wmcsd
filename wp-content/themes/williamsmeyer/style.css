@@ -64,6 +64,12 @@ a {
 a:hover {
   color: #FFF8D9;
 }
+#header a {
+  color: white;
+}
+#header a:hover {
+  color: white;
+}
 blockquote, blockquote p {
   color: #FFF1B3;
 }

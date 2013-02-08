@@ -8,7 +8,7 @@
     <div id="footer" class="grey">
       <div class="row">
         <div class="twelve columns text-center">
-          <p>&copy; 2013 Spencer Williams and Grace Meyer. All rights reserved. <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>.</p>
+          <p>&copy; 2013 <a href="http://spencerenglish.com/" target="_blank">Spencer Williams</a> and Grace Meyer. All rights reserved. <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" target="_blank">Powered by WordPress</a>.</p>
         </div>
       </div>
     </div>
