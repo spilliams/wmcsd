@@ -19,13 +19,12 @@ h1 {
   font-size: 6rem;
   font-weight: normal;
 }
-h2 {
+h2, h3 {
   font-family: 'Flamenco', cursive;
   font-weight: 400;
 }
-h3 {
-  font-family: 'IM Fell DW Pica', serif;
-  font-weight: normal;
+p {
+  font-size: 16px;
 }
 
 
@@ -71,6 +70,9 @@ blockquote, blockquote p {
 blockquote a, blockquote p a {
   color: white;
 }
+img {
+  border-color: white;
+}
 
 
 
@@ -111,6 +113,10 @@ body {
 blockquote {
   padding-top: 0;
   margin-top: 9px;
+}
+img {
+  border-style: solid;
+  border-width: 10px;
 }
 
 div.wp-caption {
