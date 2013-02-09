@@ -12,7 +12,7 @@
   
   <meta name="viewport" content="width=device-width" />
   
-  <title>Williams & Meyer</title>
+  <title><?php echo get_bloginfo("name"); ?></title>
   
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -32,10 +32,10 @@
       <div class="twelve columns text-center">
         <h2 class="subtitle">Captains</h2>
         <div id="sticky-header">
-          <h1 class="title"><a href="/">Williams &amp; Meyer</a></h1>
+          <h1 class="title"><a href="/"><?php echo get_bloginfo("name"); ?></a></h1>
           <div class="peach overlay"></div>
         </div>
-        <h2 class="subtitle">and the Corps of Self-Discovery</h2>
+        <h2 class="subtitle"><?php echo get_bloginfo("description"); ?></h2>
       </div>
     </div>
   </div>

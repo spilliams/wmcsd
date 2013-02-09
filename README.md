@@ -25,9 +25,7 @@ Williams &amp; Meyer, and the Corps of Self-Discovery
     - should these even be separate types of post? That's one more thing for admin to curate.
 - mobile?
 - more WP-BP
-    - for instance, "Captains", title, subtitle, banner, footer widgets
-    - sidebar
-    - comments
-    - search
-    - dynamically-created nav
+    - for instance: "Captains" supertitle editable, banner, footer widgets
+    - sidebar?
+    - search?
 - load bg image asynchronously or compress it or something
