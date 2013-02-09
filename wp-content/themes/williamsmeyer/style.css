@@ -128,6 +128,9 @@ img {
 hr {
   margin-top: 0;
 }
+ul {
+  list-style-position: inside;
+}
 
 div.wp-caption {
   max-width: 100%;

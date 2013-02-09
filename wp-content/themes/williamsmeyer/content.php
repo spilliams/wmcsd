@@ -30,7 +30,12 @@
   </div>
   <div class="row">
     <div class="twelve columns">
-      <p><?php the_tags('Tagged: ', ', ', '. '); ?>Categorized: <?php the_category(', '); ?>.</p>
+      <p>
+        <?php the_tags('Tagged: ', ', ', '. '); ?>Categorized: <?php the_category(', '); ?>.
+        <?php if ( comments_open() ) : ?>
+	  <?php comments_popup_link(); ?>
+	<?php endif; // comments_open() ?>
+      </p>
     </div>
   </div>
   <div class="row">
