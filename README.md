@@ -1,1 +1,1 @@
-see <a href="/tree/master/wp-content/themes/williamsmeyer/README.md">theme-specific README</a>.
+see <a href="/wp-content/themes/williamsmeyer/README.md">theme-specific README</a>.
