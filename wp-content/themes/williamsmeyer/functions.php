@@ -21,7 +21,7 @@ function williamsmeyer_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	// This theme supports a variety of post formats.
-	add_theme_support( 'post-formats', array( 'aside', 'image', 'link', 'quote', 'status' ) );
+	add_theme_support( 'post-formats', array( 'gallery' ) );
 
 	/*
 	 * This theme supports custom background color and image, and here
