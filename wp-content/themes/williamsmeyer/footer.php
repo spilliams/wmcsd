@@ -50,6 +50,11 @@
         jQuery("#sticky-header").removeClass("stuck");
       }
     });
+    jQuery(document).ready(function(){
+      if (jQuery("body.home").length == 0) {
+        jQuery(window).scrollTop(626);
+      }
+    });
   </script>
 
   <!-- Application Javascript, safe to override -->
