@@ -48,6 +48,6 @@
         <div class="three columns text-center"><h2><a href="/">Posts</a></h2></div>
         <div class="three columns text-center"><h2><a href="/about/">About</a></h2></div>
         <div class="three columns text-center"><h2><a href="/contact/">Contact</a></h2></div>
-        <div class="three columns text-center"><h2><a href="/feed/">RSS<span class="social foundicon-rss"></span></a></h2></div>
+        <div class="three columns text-center"><h2><a href="/feed/">RSS <span class="social foundicon-rss"></span></a></h2></div>
       </div>
     </div>
