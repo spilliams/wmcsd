@@ -31,7 +31,7 @@
   <div class="row">
     <div class="twelve columns">
       <p>
-        <?php the_tags('Tagged: ', ', ', '. '); ?>Categorized: <?php the_category(', '); ?>.
+        <?php the_tags('Tagged: ', ', ', '. '); ?>
         <?php if ( comments_open() ) : ?>
 	  <?php comments_popup_link(); ?>
 	<?php endif; // comments_open() ?>
