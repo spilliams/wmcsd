@@ -27,8 +27,7 @@
 
 <body <?php body_class(); ?>>
   
-  <a name="top"></a>
-  <div id="header" class="peach">
+  <div id="header" class="peach" style="position: relative;">
     <div class="row">
       <div class="twelve columns text-center">
         <h2 class="subtitle">Captains</h2>
@@ -39,6 +38,7 @@
         <h2 class="subtitle"><?php echo get_bloginfo("description"); ?></h2>
       </div>
     </div>
+    <a name="top" style="position: absolute;top:626px;left:0;"></a>
   </div>
   
   <div id="content">
