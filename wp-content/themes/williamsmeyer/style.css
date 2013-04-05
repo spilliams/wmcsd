@@ -198,9 +198,9 @@ div.wp-caption {
   margin-bottom: 0;
 }
 .countdown > * {
-  padding: 0;
+  padding: 0 !important;
 }
 .countdown > * > * {
   text-align: left !important;
-  margin: 0;
+  margin: 0 !important;
 }
