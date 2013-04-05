@@ -51,3 +51,5 @@
         <div class="three columns text-center"><h2><a href="/feed/">RSS <span class="social foundicon-rss"></span></a></h2></div>
       </div>
     </div>
+    
+    <?php get_sidebar('below-nav'); ?>

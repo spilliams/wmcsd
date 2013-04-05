@@ -22,6 +22,19 @@ function williamsmeyer_setup() {
 
 	// This theme supports a variety of post formats.
 	add_theme_support( 'post-formats', array( 'gallery' ) );
+  
+  // Add a sidebar below the nav for a widget!
+  if ( function_exists('register_sidebar')) {
+    register_sidebar(array(
+      'name' => 'Below Nav',
+      'id' => 'below-nav',
+      'description' => 'Appears as a full-width banner just below the nav bar',
+      'before_widget' => '<hr />',
+      'after_widget' => '<hr />',
+      'before_title' => '',
+      'after_title' => '',
+    ))
+  }
 
 	/*
 	 * This theme supports custom background color and image, and here
