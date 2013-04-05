@@ -1355,10 +1355,6 @@ a.comment-edit-link:hover {
 /* =Widgets
 -------------------------------------------------------------- */
 
-.shailan-countdown-2 small {
-  display: none;
-}
-
 .widget-area .widget ul ul {
 	margin-left: 12px;
 	margin-left: 0.857142857rem;

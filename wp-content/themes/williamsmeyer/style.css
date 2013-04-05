@@ -182,3 +182,18 @@ div.wp-caption {
 #sticky-header.half-stuck + h2 {
   padding-top: 80px;
 }
+
+
+
+
+
+
+
+
+/*=============
+    SIDEBARS
+ =============*/
+
+.shailan-countdown-2 small {
+  display: none;
+}
