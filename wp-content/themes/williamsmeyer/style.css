@@ -194,8 +194,12 @@ div.wp-caption {
     SIDEBARS
  =============*/
 
+#sidebar-below-nav hr {
+  margin-bottom: 0;
+}
+
 .shailan-countdown-2 {
-  margin-bottom: 1em !important;
+  margin-top: 0.5em !important;
 }
 .shailan-countdown-2 + div small {
   display: none;
