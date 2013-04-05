@@ -33,7 +33,7 @@ function williamsmeyer_setup() {
       'after_widget' => '<hr />',
       'before_title' => '',
       'after_title' => '',
-    ))
+    ));
   }
 
 	/*
