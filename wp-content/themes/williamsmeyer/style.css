@@ -197,9 +197,10 @@ div.wp-caption {
 #sidebar-below-nav div.row:first-child hr {
   margin-bottom: 0;
 }
-.countdown {
-  margin-top: -1em !important;
+.countdown > * {
+  padding: 0;
 }
 .countdown > * > * {
   text-align: left !important;
+  margin: 0;
 }
