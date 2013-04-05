@@ -15,5 +15,5 @@ if ( ! is_active_sidebar( 'below-nav' ) )
   <?php if (function_exists('dynamic_sidebar')) : ?>
     <?php dynamic_sidebar('below-nav'); ?>
   <?php endif; ?>
-  <hr />
+  <div class="row"><div class="twelve columns"><hr /></div></div>
 </div>
