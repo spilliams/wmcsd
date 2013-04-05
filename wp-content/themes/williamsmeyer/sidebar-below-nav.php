@@ -11,8 +11,9 @@ if ( ! is_active_sidebar( 'below-nav' ) )
 
 // If we get this far, we have widgets. Let do this.
 ?>
-<div id="sidebar-below-nav" class="sidebar grey"><div class="row"><div class="twelve columns">
+<div id="sidebar-below-nav" class="sidebar grey">
   <?php if (function_exists('dynamic_sidebar')) : ?>
     <?php dynamic_sidebar('below-nav'); ?>
   <?php endif; ?>
-</div></div></div>
+  <hr />
+</div>
