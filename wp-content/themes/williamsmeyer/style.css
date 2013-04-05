@@ -194,6 +194,9 @@ div.wp-caption {
     SIDEBARS
  =============*/
 
-.shailan-countdown-2 small {
+.shailan-countdown-2 {
+  margin-bottom: 1em !important;
+}
+.shailan-countdown-2 + div small {
   display: none;
 }
