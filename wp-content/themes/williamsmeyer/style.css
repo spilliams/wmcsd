@@ -197,16 +197,6 @@ div.wp-caption {
 #sidebar-below-nav div.row:first-child hr {
   margin-bottom: 0;
 }
-
 .shailan-countdown-2 {
   margin-top: 0.8em !important;
-}
-.shailan-countdown-2 + div small {
-  display: none;
-}
-#shailan-countdown-2_1 > span > span {
-  width: 24%;
-}
-#shailan-countdown-2_1 > span > span:nth-child(n+5) {
-  display: none;
 }

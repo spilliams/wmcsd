@@ -31,8 +31,8 @@ function williamsmeyer_setup() {
       'description' => 'Appears as a full-width banner just below the nav bar',
       'before_widget' => '<div class="row"><div class="twelve columns"><hr /></div></div><div class="row">',
       'after_widget' => '</div></div>',
-      'before_title' => '<div class="three columns text-center"><h2>',
-      'after_title' => '</h2></div><div class="nine columns">',
+      'before_title' => '<div class="six columns text-right"><h2>',
+      'after_title' => '</h2></div><div class="six columns">',
     ));
   }
 
