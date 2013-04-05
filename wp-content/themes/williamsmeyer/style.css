@@ -197,6 +197,9 @@ div.wp-caption {
 #sidebar-below-nav div.row:first-child hr {
   margin-bottom: 0;
 }
-.shailan-countdown-2 {
+.countdown {
   margin-top: 0.8em !important;
+}
+.countdown > * > * {
+  text-align: left !important;
 }

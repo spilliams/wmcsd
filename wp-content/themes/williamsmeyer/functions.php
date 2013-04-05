@@ -29,10 +29,10 @@ function williamsmeyer_setup() {
       'name' => 'Below Nav',
       'id' => 'below-nav',
       'description' => 'Appears as a full-width banner just below the nav bar',
-      'before_widget' => '<div class="row"><div class="twelve columns"><hr /></div></div><div class="row">',
-      'after_widget' => '</div></div>',
-      'before_title' => '<div class="six columns text-right"><h2>',
-      'after_title' => '</h2></div><div class="six columns">',
+      'before_widget' => '<li><div class="row">',
+      'after_widget' => '</div></div></li>',
+      'before_title' => '<div class="six columns mobile-two text-right"><h2>',
+      'after_title' => '</h2></div><div class="six mobile-two columns">',
     ));
   }
 
