@@ -168,6 +168,15 @@ div.wp-caption {
   background-size: cover;
   background-image: url("./images/bg.jpg");
 }
+#sticky-header.stuck h1, #sticky-header h1 {
+  transition-property: font-size;
+  transition-duration: 0.25s;
+  transition-delay: 0s;
+  font-size: 3em;
+}
+#sticky-header h1 {
+  font-size: 6em;
+}
 
 #sticky-header.half-stuck h1, #sticky-header.stuck {
   position: fixed;
