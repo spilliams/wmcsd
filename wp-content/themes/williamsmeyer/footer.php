@@ -52,7 +52,7 @@
     });
     jQuery(document).ready(function(){
       if (jQuery("body.home").length == 0) {
-        jQuery(window).scrollTop(626);
+        jQuery(window).scrollTop(648);
       }
     });
   </script>
