@@ -15,12 +15,9 @@ if ( ! is_active_sidebar( 'below-nav' ) )
   <div class="row">
     <div class="twelve columns">
       <hr />
-      <ul class="block-grid two-up">
       <?php if (function_exists('dynamic_sidebar')) : ?>
         <?php dynamic_sidebar('below-nav'); ?>
       <?php endif; ?>
-      </ul>
-      <hr />
     </div>
   </div>
 </div>
