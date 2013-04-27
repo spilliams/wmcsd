@@ -203,9 +203,6 @@ div.wp-caption {
     SIDEBARS
  =============*/
 
-#sidebar-below-nav div.row:first-child hr {
-  margin-bottom: 0;
-}
 .countdown > * {
   padding: 0 !important;
 }
